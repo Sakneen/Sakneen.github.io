@@ -49,5 +49,50 @@ table {
 
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.header-image {
+  padding: 15px;
+}
+
+.page-title {
+  line-height: 31.25px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.welcome-message{
+  padding: 20px;
+}
+
+.contact-heading{
+  color: #1D149A;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact-info{
+  color: #0E1024;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
 }
